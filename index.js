@@ -22055,16 +22055,14 @@ function BeeSwarmSimulator(DATA){
             }
 
             out.restrictionInfo.allowed_5=amountOfBees>=5?true:'You need 5 bees to enter the 5 Bee Zone!'
-            out.restrictionInfo.allowed_5=amountOfBees>=5?true:'You need 5 bees to enter the 10 Bee Zone!'
-            out.restrictionInfo.allowed_5=amountOfBees>=5?true:'You need 5 bees to enter the 15 Bee Zone!'
-            out.restrictionInfo.allowed_5=amountOfBees>=5?true:'You need 5 bees to enter the 20 Bee Zone!'
-            out.restrictionInfo.allowed_5=amountOfBees>=5?true:'You need 5 bees to enter the 25 Bee Zone!'
-            out.restrictionInfo.allowed_5=amountOfBees>=5?true:'You need 5 bees to enter the 30 Bee Zone!'
-            out.restrictionInfo.allowed_5=amountOfBees>=5?true:'You need 5 bees to enter the 35 Bee Zone!'
+            out.restrictionInfo.allowed_10=amountOfBees>=5?true:'You need 5 bees to enter the 10 Bee Zone!'
+            out.restrictionInfo.allowed_15=amountOfBees>=5?true:'You need 5 bees to enter the 15 Bee Zone!'
+            out.restrictionInfo.allowed_20=amountOfBees>=5?true:'You need 5 bees to enter the 20 Bee Zone!'
+            out.restrictionInfo.allowed_25=amountOfBees>=5?true:'You need 5 bees to enter the 25 Bee Zone!'
+            out.restrictionInfo.allowed_30=amountOfBees>=5?true:'You need 5 bees to enter the 30 Bee Zone!'
+            out.restrictionInfo.allowed_35=amountOfBees>=5?true:'You need 5 bees to enter the 35 Bee Zone!'
             out.restrictionInfo.allowed_redHQ=redTypes>=1?true:'Discover 1 red bee types to enter the Red HQ!'
             out.restrictionInfo.allowed_blueHQ=blueTypes>=1?true:'Discover 1 blue bee types to enter the Blue HQ!'
-            out.restrictionInfo.allowed_sprinkler=legendaryTypes>=1?true:'Discover 1 legendary bee type to enter the Sprinkler Shop!'
-            out.restrictionInfo.allowed_ace=epicTypes>=1?true:'Discover 1 epic bee types to enter the Ace Shop!'
             out.restrictionInfo.allowed_dapper=out.currentGear.mask!=='helmet'&&out.currentGear.mask!=='none'&&out.currentGear.boots!=='basicBoots'&&out.currentGear.boots!=='none'?true:'You must wear a nice hat and cool boots to enter the Dapper Shop!'
             out.restrictionInfo.allowed_cocoCave=!out.extraInfo.mob_coco||out.extraInfo.mob_coco<=0
 
@@ -34760,6 +34758,7 @@ function BeeSwarmSimulator(DATA){
     
 
 }
+
 
 
 
