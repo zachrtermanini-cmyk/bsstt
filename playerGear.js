@@ -13,9 +13,9 @@ window.playerGear={
         basicSprinkler:{
 
             count:1,
-            diameter:1000,
+            diameter:100,
             power:0.9,
-            rate:1,
+            rate:0,
             mesh:function(x,y,z,box,cylinder){
 
                 cylinder(x,y,z,0.125,1.25,10,0.3,0.3,0.3,1,90,0,0)
