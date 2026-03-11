@@ -1341,9 +1341,9 @@ window.playerGear={
             applyStats:function(stats,player){
                 
                 stats.movementCollection+=1000
-                stats.walkSpeed*=2
+                stats.walkSpeed*=3
                 stats.beeSpeed*=4
-                stats.jumpPower*=2
+                stats.jumpPower*=1
             },
             desc:'Move faster and collect pollen as you walk through flowers!<br><br>+1 movement collection<br>x1.05 bee speed<br>x1.1 movespeed',
             cost:['5000 honey','3 sunflowerSeed','3 blueberry','3 strawberry'],
